@@ -8,4 +8,4 @@ A little about me:
 - I am taking STATS 220 because I would like to know more about Data Technologies
 - I am interested in learning about data visualisation, coding AND storytelling with data
 
-A meme that captures how I currently feel about my university studies is ![](https://tenor.com/en-GB/view/studying-study-gif-10457554477233998682)
+A meme that captures how I currently feel about my university studies is ![](https://media1.tenor.com/m/kSCyY_rUC1oAAAAC/studying-study.gif)
