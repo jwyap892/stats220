@@ -1,11 +1,17 @@
-# stats220
+# Stats 220 Repo
 
-This is my repo for STATS 220. 
+## About Me
+Hi, I am learning *R and HTML* in **Stats 220**.
 
-A little about me:
+## What I am doing in this course
+- Learning how to create memes using R
+- Learning Markdown and GitHub
 
-- I am undertaking a degree in Bachelor of Science majoring in Data Science
-- I am taking STATS 220 because I would like to know more about Data Technologies
-- I am interested in learning about data visualisation, coding AND storytelling with data
+1. Complete assignments
+2. Build projects
 
-A meme that captures how I currently feel about my university studies is ![](https://media1.tenor.com/m/kSCyY_rUC1oAAAAC/studying-study.gif)
+## Useful Link
+[Visit the Stats 220 course page](https://courseoutline.auckland.ac.nz/)
+
+## Funny GIF
+![funny gif]([https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZqaDBvYXRlcTVydmhicGRxejV5aHcyd2czZG5lb3E1azV6YXpoaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12Nq0XPz2CFISA/giphy.gif])
