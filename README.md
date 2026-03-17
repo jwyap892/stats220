@@ -9,7 +9,6 @@ Hi, I am learning *R and HTML* in **Stats 220**.
 
 1. Complete assignments
 2. Build projects
-3. 
 
 ## Useful Link
 [Visit the Stats 220 Coursebook](https://www.stat-edu.cloud.edu.au/foo/docnamic/stats220_S126/)
