@@ -14,5 +14,5 @@ Hi, I am learning *R and HTML* in **Stats 220**.
 ## Useful Link
 [Visit the Stats 220 Coursebook](https://www.stat-edu.cloud.edu.au/foo/docnamic/stats220_S126/)
 
-## Funny GIF
+## Cute Gif
 ![my gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZqaDBvYXRlcTVydmhicGRxejV5aHcyd2czZG5lb3E1azV6YXpoaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12Nq0XPz2CFISA/giphy.gif)
