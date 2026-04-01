@@ -1,0 +1,89 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+library(tidyverse)
+```
+
+```{css echo=FALSE}
+body {
+font-family: Malgun Gothic;
+margin: 30px;
+}
+
+h2 {
+color: #845F4A;
+}
+
+p {
+font-size: 15px;
+}
+```
+
+## Meal logging patterns
+
+This dynamic report analyses the meals I logged using a Google Form. The data focuses on meal type, estimated calories, meal source, and main meal category.
+
+```{r}
+logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQko11OP2_I4G12Ylji5HYcM0UL-TSw4fQq42MFxJAW4xRg79L3PxWHO7Og408CtogvMh1AyGEXJRmj/pub?gid=1914997729&single=true&output=csv") %>%
+rename(
+meal_type = 2,
+calories = 3,
+source = 4,
+category = 5
+)
+```
+
+```{r}
+mean_calories <- mean(logged_data$calories)
+max_calories <- max(logged_data$calories)
+total_meals <- length(logged_data$calories)
+```
+
+The mean estimated calories across the `r total_meals` meals recorded was `r round(mean_calories, 1)` calories.
+
+The highest estimated calorie value recorded was `r max_calories` calories.
+
+## Meal types recorded
+
+```{r fig.width=8, fig.height=4}
+logged_data %>%
+ggplot() +
+geom_bar(aes(x = meal_type), fill = "#80864F") +
+labs(
+title = "Number of meals by meal type",
+x = "Meal type",
+y = "Count"
+)
+```
+
+## Main meal categories
+
+```{r fig.width=9, fig.height=4}
+logged_data %>%
+ggplot() +
+geom_bar(aes(x = category), fill = "#DFA0AA") +
+labs(
+title = "Number of meals by main category",
+x = "Main category",
+y = "Count"
+) +
+theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## What's going on with this data?
+
+You need to change the contents of this Rmd! Replace the R code and markdown give below in this template document.
+
+```{r}
+pets <- c("cat", "dog", "turtle", "rabbit")
+best_pet <- pets[1]
+
+```
+
+The best pet to have is a `r best_pet` of course!
+
+![](https://c.tenor.com/-qBsG1HwR4oAAAAC/tenor.gif)
